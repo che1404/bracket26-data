@@ -1,0 +1,36 @@
+{
+  "matches": [
+    {
+      "id": 497307,
+      "utcDate": "2026-06-28T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "homeTeam": {
+        "id": 780,
+        "name": "Mexico",
+        "shortName": "Mexico",
+        "tla": "MEX"
+      },
+      "awayTeam": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER"
+      },
+      "score": {
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "halfTime": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    }
+  ]
+}
