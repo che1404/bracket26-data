@@ -1,0 +1,10 @@
+[
+ {"MatchNumber": 1, "RoundNumber": 1, "DateUtc": "2026-06-11 19:00:00Z", "Location": "Mexico City Stadium",
+  "HomeTeam": "Mexico", "AwayTeam": "South Africa", "Group": "Group A", "HomeTeamScore": 2, "AwayTeamScore": 1, "Winner": "Mexico"},
+ {"MatchNumber": 73, "RoundNumber": 4, "DateUtc": "2026-06-28 19:00:00Z", "Location": "Los Angeles Stadium",
+  "HomeTeam": "Mexico", "AwayTeam": "Germany", "Group": null, "HomeTeamScore": null, "AwayTeamScore": null, "Winner": ""},
+ {"MatchNumber": 74, "RoundNumber": 4, "DateUtc": "2026-06-28 22:00:00Z", "Location": "Dallas Stadium",
+  "HomeTeam": "Spain", "AwayTeam": "France", "Group": null, "HomeTeamScore": 1, "AwayTeamScore": 1, "Winner": "Spain"},
+ {"MatchNumber": 90, "RoundNumber": 5, "DateUtc": "2026-07-04 17:00:00Z", "Location": "Dallas Stadium",
+  "HomeTeam": "Winner Match 73", "AwayTeam": "Winner Match 75", "Group": null, "HomeTeamScore": null, "AwayTeamScore": null, "Winner": ""}
+]
