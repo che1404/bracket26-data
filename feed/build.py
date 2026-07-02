@@ -14,6 +14,8 @@ def build_results(snapshot: list[dict], team_ids: dict[str, str], valid_match_nu
         winner = team_ids.get(m.get("Winner") or "")
         if winner is not None:
             status = "FINISHED"
+        elif home_score is not None and away_score is not None and home_score == away_score:
+            status = "FINISHED"  # empate terminado (feed: Winner "Draw") → sin ganador de equipo
         elif home_score is not None or away_score is not None:
             status = "IN_PLAY"
         else:

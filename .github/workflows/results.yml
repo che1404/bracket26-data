@@ -1,0 +1,48 @@
+name: results
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # El torneo acaba el 19-jul; margen hasta fin de mes y luego el cron se apaga
+      # solo. `github.run_started_at` no es un contexto válido en `if:` a nivel job,
+      # así que la ventana se comprueba en un step y los demás se encadenan a su output.
+      # workflow_dispatch siempre corre (para poder relanzar manualmente).
+      - name: Tournament window gate
+        id: gate
+        run: |
+          if [ "$(date -u +%Y%m%d)" -ge 20260801 ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "Past tournament window; skipping run."
+          else
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.active == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.active == 'true'
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+        if: steps.gate.outputs.active == 'true'
+      - run: python -m pytest tests -q
+        if: steps.gate.outputs.active == 'true'
+      - run: python -m feed.main
+        if: steps.gate.outputs.active == 'true'
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+      - name: Commit if changed
+        if: steps.gate.outputs.active == 'true'
+        run: |
+          if ! git diff --quiet results.json; then
+            git config user.name "results-bot"
+            git config user.email "actions@github.com"
+            git add results.json
+            git commit -m "data: results update $(date -u +%FT%TZ)"
+            git push
+          fi

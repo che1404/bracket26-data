@@ -22,9 +22,12 @@ def validate(payload: dict, valid_match_numbers: set[int], valid_team_ids: set[s
         if r["home"] == r["away"]:
             raise ValueError(f"match {n}: home == away")
         if r["status"] == "FINISHED":
-            if r["homeScore"] is None or r["awayScore"] is None or r["winner"] is None:
-                raise ValueError(f"match {n}: FINISHED requires scores and winner")
-            if r["winner"] not in (r["home"], r["away"]):
+            if r["homeScore"] is None or r["awayScore"] is None:
+                raise ValueError(f"match {n}: FINISHED requires scores")
+            if r["winner"] is None:
+                if r["homeScore"] != r["awayScore"]:
+                    raise ValueError(f"match {n}: FINISHED without winner must be a draw")
+            elif r["winner"] not in (r["home"], r["away"]):
                 raise ValueError(f"match {n}: winner not playing")
         if r["status"] == "SCHEDULED":
             if r["homeScore"] is not None or r["awayScore"] is not None or r["winner"] is not None:

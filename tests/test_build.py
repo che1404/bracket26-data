@@ -45,5 +45,15 @@ def test_scores_without_winner_is_in_play():
     assert m1["status"] == "IN_PLAY" and m1["winner"] is None
 
 
+def test_draw_is_finished_with_null_winner():
+    snap = load_snapshot()
+    snap[0]["Winner"] = "Draw"
+    snap[0]["HomeTeamScore"], snap[0]["AwayTeamScore"] = 1, 1
+    out = build_results(snap, TEAM_IDS, VALID)
+    m1 = next(r for r in out["results"] if r["matchNumber"] == 1)
+    assert m1["status"] == "FINISHED" and m1["winner"] is None
+    assert m1["homeScore"] == 1 and m1["awayScore"] == 1
+
+
 def test_schema_version_present():
     assert build_results(load_snapshot(), TEAM_IDS, VALID)["schemaVersion"] == 1

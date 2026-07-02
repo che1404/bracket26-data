@@ -34,6 +34,11 @@ def test_invalid_entries_raise(bad):
         validate(payload(bad), VALID_M, VALID_T)
 
 
+def test_finished_draw_with_null_winner_passes():
+    validate(payload(entry(status="FINISHED", winner=None, homeScore=1, awayScore=1)),
+             VALID_M, VALID_T)
+
+
 def test_duplicate_match_numbers_raise():
     with pytest.raises(ValueError):
         validate(payload(entry(), entry()), VALID_M, VALID_T)

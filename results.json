@@ -1,0 +1,843 @@
+{
+ "schemaVersion": 1,
+ "results": [
+  {
+   "matchNumber": 1,
+   "home": "MEX",
+   "away": "RSA",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "MEX",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 2,
+   "home": "KOR",
+   "away": "CZE",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "KOR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 3,
+   "home": "CAN",
+   "away": "BIH",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 4,
+   "home": "USA",
+   "away": "PAR",
+   "homeScore": 4,
+   "awayScore": 1,
+   "winner": "USA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 5,
+   "home": "HAI",
+   "away": "SCO",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "SCO",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 6,
+   "home": "AUS",
+   "away": "TUR",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "AUS",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 7,
+   "home": "BRA",
+   "away": "MAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 8,
+   "home": "QAT",
+   "away": "SUI",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 9,
+   "home": "CIV",
+   "away": "ECU",
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "CIV",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 10,
+   "home": "GER",
+   "away": "CUW",
+   "homeScore": 7,
+   "awayScore": 1,
+   "winner": "GER",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 11,
+   "home": "NED",
+   "away": "JPN",
+   "homeScore": 2,
+   "awayScore": 2,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 12,
+   "home": "SWE",
+   "away": "TUN",
+   "homeScore": 5,
+   "awayScore": 1,
+   "winner": "SWE",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 13,
+   "home": "KSA",
+   "away": "URU",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 14,
+   "home": "ESP",
+   "away": "CPV",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 15,
+   "home": "IRN",
+   "away": "NZL",
+   "homeScore": 2,
+   "awayScore": 2,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 16,
+   "home": "BEL",
+   "away": "EGY",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 17,
+   "home": "FRA",
+   "away": "SEN",
+   "homeScore": 3,
+   "awayScore": 1,
+   "winner": "FRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 18,
+   "home": "IRQ",
+   "away": "NOR",
+   "homeScore": 1,
+   "awayScore": 4,
+   "winner": "NOR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 19,
+   "home": "ARG",
+   "away": "ALG",
+   "homeScore": 3,
+   "awayScore": 0,
+   "winner": "ARG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 20,
+   "home": "AUT",
+   "away": "JOR",
+   "homeScore": 3,
+   "awayScore": 1,
+   "winner": "AUT",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 21,
+   "home": "GHA",
+   "away": "PAN",
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "GHA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 22,
+   "home": "ENG",
+   "away": "CRO",
+   "homeScore": 4,
+   "awayScore": 2,
+   "winner": "ENG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 23,
+   "home": "POR",
+   "away": "COD",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 24,
+   "home": "UZB",
+   "away": "COL",
+   "homeScore": 1,
+   "awayScore": 3,
+   "winner": "COL",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 25,
+   "home": "CZE",
+   "away": "RSA",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 26,
+   "home": "SUI",
+   "away": "BIH",
+   "homeScore": 4,
+   "awayScore": 1,
+   "winner": "SUI",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 27,
+   "home": "CAN",
+   "away": "QAT",
+   "homeScore": 6,
+   "awayScore": 0,
+   "winner": "CAN",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 28,
+   "home": "MEX",
+   "away": "KOR",
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "MEX",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 29,
+   "home": "BRA",
+   "away": "HAI",
+   "homeScore": 3,
+   "awayScore": 0,
+   "winner": "BRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 30,
+   "home": "SCO",
+   "away": "MAR",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "MAR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 31,
+   "home": "TUR",
+   "away": "PAR",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "PAR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 32,
+   "home": "USA",
+   "away": "AUS",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "USA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 33,
+   "home": "GER",
+   "away": "CIV",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "GER",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 34,
+   "home": "ECU",
+   "away": "CUW",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 35,
+   "home": "NED",
+   "away": "SWE",
+   "homeScore": 5,
+   "awayScore": 1,
+   "winner": "NED",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 36,
+   "home": "TUN",
+   "away": "JPN",
+   "homeScore": 0,
+   "awayScore": 4,
+   "winner": "JPN",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 37,
+   "home": "URU",
+   "away": "CPV",
+   "homeScore": 2,
+   "awayScore": 2,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 38,
+   "home": "ESP",
+   "away": "KSA",
+   "homeScore": 4,
+   "awayScore": 0,
+   "winner": "ESP",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 39,
+   "home": "BEL",
+   "away": "IRN",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 40,
+   "home": "NZL",
+   "away": "EGY",
+   "homeScore": 1,
+   "awayScore": 3,
+   "winner": "EGY",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 41,
+   "home": "NOR",
+   "away": "SEN",
+   "homeScore": 3,
+   "awayScore": 2,
+   "winner": "NOR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 42,
+   "home": "FRA",
+   "away": "IRQ",
+   "homeScore": 3,
+   "awayScore": 0,
+   "winner": "FRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 43,
+   "home": "ARG",
+   "away": "AUT",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "ARG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 44,
+   "home": "JOR",
+   "away": "ALG",
+   "homeScore": 1,
+   "awayScore": 2,
+   "winner": "ALG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 45,
+   "home": "ENG",
+   "away": "GHA",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 46,
+   "home": "PAN",
+   "away": "CRO",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "CRO",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 47,
+   "home": "POR",
+   "away": "UZB",
+   "homeScore": 5,
+   "awayScore": 0,
+   "winner": "POR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 48,
+   "home": "COL",
+   "away": "COD",
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "COL",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 49,
+   "home": "SCO",
+   "away": "BRA",
+   "homeScore": 0,
+   "awayScore": 3,
+   "winner": "BRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 50,
+   "home": "MAR",
+   "away": "HAI",
+   "homeScore": 4,
+   "awayScore": 2,
+   "winner": "MAR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 51,
+   "home": "SUI",
+   "away": "CAN",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "SUI",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 52,
+   "home": "BIH",
+   "away": "QAT",
+   "homeScore": 3,
+   "awayScore": 1,
+   "winner": "BIH",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 53,
+   "home": "CZE",
+   "away": "MEX",
+   "homeScore": 0,
+   "awayScore": 3,
+   "winner": "MEX",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 54,
+   "home": "RSA",
+   "away": "KOR",
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "RSA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 55,
+   "home": "CUW",
+   "away": "CIV",
+   "homeScore": 0,
+   "awayScore": 2,
+   "winner": "CIV",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 56,
+   "home": "ECU",
+   "away": "GER",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "ECU",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 57,
+   "home": "JPN",
+   "away": "SWE",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 58,
+   "home": "TUN",
+   "away": "NED",
+   "homeScore": 1,
+   "awayScore": 3,
+   "winner": "NED",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 59,
+   "home": "TUR",
+   "away": "USA",
+   "homeScore": 3,
+   "awayScore": 2,
+   "winner": "TUR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 60,
+   "home": "PAR",
+   "away": "AUS",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 61,
+   "home": "NOR",
+   "away": "FRA",
+   "homeScore": 1,
+   "awayScore": 4,
+   "winner": "FRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 62,
+   "home": "SEN",
+   "away": "IRQ",
+   "homeScore": 5,
+   "awayScore": 0,
+   "winner": "SEN",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 63,
+   "home": "EGY",
+   "away": "IRN",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 64,
+   "home": "NZL",
+   "away": "BEL",
+   "homeScore": 1,
+   "awayScore": 5,
+   "winner": "BEL",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 65,
+   "home": "CPV",
+   "away": "KSA",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 66,
+   "home": "URU",
+   "away": "ESP",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "ESP",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 67,
+   "home": "PAN",
+   "away": "ENG",
+   "homeScore": 0,
+   "awayScore": 2,
+   "winner": "ENG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 68,
+   "home": "CRO",
+   "away": "GHA",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "CRO",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 69,
+   "home": "ALG",
+   "away": "AUT",
+   "homeScore": 3,
+   "awayScore": 3,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 70,
+   "home": "JOR",
+   "away": "ARG",
+   "homeScore": 1,
+   "awayScore": 3,
+   "winner": "ARG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 71,
+   "home": "COL",
+   "away": "POR",
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": null,
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 72,
+   "home": "COD",
+   "away": "UZB",
+   "homeScore": 3,
+   "awayScore": 1,
+   "winner": "COD",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 73,
+   "home": "RSA",
+   "away": "CAN",
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "CAN",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 74,
+   "home": "GER",
+   "away": "PAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": "PAR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 75,
+   "home": "NED",
+   "away": "MAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": "MAR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 76,
+   "home": "BRA",
+   "away": "JPN",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "BRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 77,
+   "home": "FRA",
+   "away": "SWE",
+   "homeScore": 3,
+   "awayScore": 0,
+   "winner": "FRA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 78,
+   "home": "CIV",
+   "away": "NOR",
+   "homeScore": 1,
+   "awayScore": 2,
+   "winner": "NOR",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 79,
+   "home": "MEX",
+   "away": "ECU",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "MEX",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 80,
+   "home": "ENG",
+   "away": "COD",
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "ENG",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 81,
+   "home": "USA",
+   "away": "BIH",
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "USA",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 82,
+   "home": "BEL",
+   "away": "SEN",
+   "homeScore": 3,
+   "awayScore": 2,
+   "winner": "BEL",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 83,
+   "home": "POR",
+   "away": "CRO",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 84,
+   "home": "ESP",
+   "away": "AUT",
+   "homeScore": 3,
+   "awayScore": 0,
+   "winner": "ESP",
+   "status": "FINISHED"
+  },
+  {
+   "matchNumber": 85,
+   "home": "SUI",
+   "away": "ALG",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 86,
+   "home": "ARG",
+   "away": "CPV",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 87,
+   "home": "COL",
+   "away": "GHA",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 88,
+   "home": "AUS",
+   "away": "EGY",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 89,
+   "home": "PAR",
+   "away": "FRA",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 90,
+   "home": "CAN",
+   "away": "MAR",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 91,
+   "home": "BRA",
+   "away": "NOR",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 92,
+   "home": "MEX",
+   "away": "ENG",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 94,
+   "home": "USA",
+   "away": "BEL",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  }
+ ],
+ "generatedAt": "2026-07-02T22:30:23Z"
+}
