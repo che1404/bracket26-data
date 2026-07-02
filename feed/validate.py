@@ -17,9 +17,13 @@ def validate(payload: dict, valid_match_numbers: set[int], valid_team_ids: set[s
         if r["status"] not in STATUSES:
             raise ValueError(f"match {n}: bad status {r['status']}")
         for side in ("home", "away"):
-            if r[side] not in valid_team_ids:
+            if r[side] is not None and r[side] not in valid_team_ids:
                 raise ValueError(f"match {n}: unknown team {r[side]}")
-        if r["home"] == r["away"]:
+        if r["home"] is None and r["away"] is None:
+            raise ValueError(f"match {n}: both sides null")
+        if (r["home"] is None or r["away"] is None) and r["status"] != "SCHEDULED":
+            raise ValueError(f"match {n}: null side only allowed when SCHEDULED")
+        if r["home"] is not None and r["away"] is not None and r["home"] == r["away"]:
             raise ValueError(f"match {n}: home == away")
         if r["status"] == "FINISHED":
             if r["homeScore"] is None or r["awayScore"] is None:

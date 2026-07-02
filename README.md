@@ -13,6 +13,10 @@ Primary source: [fixturedownload.com](https://fixturedownload.com/feed/json/fifa
 `FINISHED`). A finished **draw** is `status: "FINISHED"` with `winner: null`
 and equal scores — consumers must treat null-winner FINISHED as a draw.
 
+A knockout match with only one feeder resolved is emitted as a **partial**:
+`status: "SCHEDULED"` with the unknown side as `null` (e.g. `home: null`,
+`away: "ESP"`). Never both sides null; a partial never has scores or a winner.
+
 ## TODO: football-data.org arbiter (optional)
 
 The pipeline can cross-check finished scores against

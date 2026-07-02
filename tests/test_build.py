@@ -55,5 +55,29 @@ def test_draw_is_finished_with_null_winner():
     assert m1["homeScore"] == 1 and m1["awayScore"] == 1
 
 
+def test_partial_pairing_emits_null_side_scheduled():
+    snap = load_snapshot()
+    snap[1]["HomeTeam"] = "To be announced"   # m73: away Germany resuelto, home aún sin feeder
+    out = build_results(snap, TEAM_IDS, VALID)
+    m73 = next(r for r in out["results"] if r["matchNumber"] == 73)
+    assert m73["home"] is None and m73["away"] == "GER"
+    assert m73["status"] == "SCHEDULED"
+    assert m73["homeScore"] is None and m73["winner"] is None
+
+
+def test_no_side_mapped_is_omitted():
+    snap = load_snapshot()
+    snap[1]["HomeTeam"] = snap[1]["AwayTeam"] = "To be announced"
+    out = build_results(snap, TEAM_IDS, VALID)
+    assert all(r["matchNumber"] != 73 for r in out["results"])
+
+
+def test_result_with_unmapped_side_is_omitted():
+    snap = load_snapshot()
+    snap[0]["AwayTeam"] = "To be announced"   # m1 tiene resultado (2-1) pero un lado no mapea
+    out = build_results(snap, TEAM_IDS, VALID)
+    assert all(r["matchNumber"] != 1 for r in out["results"])
+
+
 def test_schema_version_present():
     assert build_results(load_snapshot(), TEAM_IDS, VALID)["schemaVersion"] == 1

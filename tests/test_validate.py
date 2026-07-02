@@ -39,6 +39,24 @@ def test_finished_draw_with_null_winner_passes():
              VALID_M, VALID_T)
 
 
+def test_partial_scheduled_null_side_passes():
+    validate(payload(entry(status="SCHEDULED", away=None,
+                           homeScore=None, awayScore=None, winner=None)),
+             VALID_M, VALID_T)
+
+
+def test_finished_with_null_side_raises():
+    with pytest.raises(ValueError):
+        validate(payload(entry(status="FINISHED", away=None)), VALID_M, VALID_T)
+
+
+def test_both_sides_null_raises():
+    with pytest.raises(ValueError):
+        validate(payload(entry(status="SCHEDULED", home=None, away=None,
+                               homeScore=None, awayScore=None, winner=None)),
+                 VALID_M, VALID_T)
+
+
 def test_duplicate_match_numbers_raise():
     with pytest.raises(ValueError):
         validate(payload(entry(), entry()), VALID_M, VALID_T)

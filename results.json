@@ -830,6 +830,15 @@
    "status": "SCHEDULED"
   },
   {
+   "matchNumber": 93,
+   "home": null,
+   "away": "ESP",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
    "matchNumber": 94,
    "home": "USA",
    "away": "BEL",
@@ -839,5 +848,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-02T22:30:23Z"
+ "generatedAt": "2026-07-02T22:58:57Z"
 }

@@ -8,8 +8,8 @@ def build_results(snapshot: list[dict], team_ids: dict[str, str], valid_match_nu
             continue
         home = team_ids.get(m["HomeTeam"])
         away = team_ids.get(m["AwayTeam"])
-        if home is None or away is None:
-            continue  # cruce aún no conocido (placeholder del feed) → se omite
+        if home is None and away is None:
+            continue  # ningún lado conocido aún (ambos placeholder) → se omite
         home_score, away_score = m["HomeTeamScore"], m["AwayTeamScore"]
         winner = team_ids.get(m.get("Winner") or "")
         if winner is not None:
@@ -20,6 +20,8 @@ def build_results(snapshot: list[dict], team_ids: dict[str, str], valid_match_nu
             status = "IN_PLAY"
         else:
             status = "SCHEDULED"
+        if status != "SCHEDULED" and (home is None or away is None):
+            continue  # anomalía: hay resultado pero un lado no mapea → no publicar basura
         results.append({
             "matchNumber": m["MatchNumber"], "home": home, "away": away,
             "homeScore": home_score if status != "SCHEDULED" else None,
