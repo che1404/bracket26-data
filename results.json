@@ -662,8 +662,8 @@
    "matchNumber": 74,
    "home": "GER",
    "away": "PAR",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 4,
+   "awayScore": 5,
    "winner": "PAR",
    "status": "FINISHED"
   },
@@ -671,8 +671,8 @@
    "matchNumber": 75,
    "home": "NED",
    "away": "MAR",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 3,
+   "awayScore": 4,
    "winner": "MAR",
    "status": "FINISHED"
   },
@@ -848,5 +848,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-03T05:10:00Z"
+ "generatedAt": "2026-07-03T06:07:50Z"
 }
