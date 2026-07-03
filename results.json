@@ -788,10 +788,10 @@
    "matchNumber": 88,
    "home": "AUS",
    "away": "EGY",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 1,
+   "awayScore": 1,
+   "winner": "EGY",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 89,
@@ -848,6 +848,15 @@
    "status": "SCHEDULED"
   },
   {
+   "matchNumber": 95,
+   "home": null,
+   "away": "EGY",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
    "matchNumber": 96,
    "home": "SUI",
    "away": null,
@@ -857,5 +866,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-03T08:26:49Z"
+ "generatedAt": "2026-07-03T22:05:12Z"
 }
