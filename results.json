@@ -761,10 +761,10 @@
    "matchNumber": 85,
    "home": "SUI",
    "away": "ALG",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 2,
+   "awayScore": 0,
+   "winner": "SUI",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 86,
@@ -846,7 +846,16 @@
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 96,
+   "home": "SUI",
+   "away": null,
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-03T06:07:50Z"
+ "generatedAt": "2026-07-03T08:26:49Z"
 }
