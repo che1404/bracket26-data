@@ -743,10 +743,10 @@
    "matchNumber": 83,
    "home": "POR",
    "away": "CRO",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "POR",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 84,
@@ -831,7 +831,7 @@
   },
   {
    "matchNumber": 93,
-   "home": null,
+   "home": "POR",
    "away": "ESP",
    "homeScore": null,
    "awayScore": null,
@@ -848,5 +848,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-02T22:58:57Z"
+ "generatedAt": "2026-07-03T05:10:00Z"
 }
