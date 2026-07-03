@@ -1,6 +1,9 @@
 """Hard gate: results.json must never be published if any invariant fails."""
 
 STATUSES = {"SCHEDULED", "IN_PLAY", "FINISHED"}
+# WC2026: 1-72 son grupos. Un FINISHED sin ganador (empate) solo es legal ahí; en KO
+# lo decide penaltis, así que un FINISHED-draw en KO debe hacer saltar el gate.
+GROUP_STAGE_MAX_MATCH = 72
 
 
 def validate(payload: dict, valid_match_numbers: set[int], valid_team_ids: set[str]) -> None:
@@ -31,6 +34,8 @@ def validate(payload: dict, valid_match_numbers: set[int], valid_team_ids: set[s
             if r["winner"] is None:
                 if r["homeScore"] != r["awayScore"]:
                     raise ValueError(f"match {n}: FINISHED without winner must be a draw")
+                if n > GROUP_STAGE_MAX_MATCH:
+                    raise ValueError(f"match {n}: knockout draw cannot be FINISHED without a winner")
             elif r["winner"] not in (r["home"], r["away"]):
                 raise ValueError(f"match {n}: winner not playing")
         if r["status"] == "SCHEDULED":

@@ -39,6 +39,13 @@ def test_finished_draw_with_null_winner_passes():
              VALID_M, VALID_T)
 
 
+def test_finished_draw_in_knockout_raises():
+    with pytest.raises(ValueError):
+        validate(payload(entry(matchNumber=73, status="FINISHED",
+                               winner=None, homeScore=1, awayScore=1)),
+                 VALID_M, VALID_T)
+
+
 def test_partial_scheduled_null_side_passes():
     validate(payload(entry(status="SCHEDULED", away=None,
                            homeScore=None, awayScore=None, winner=None)),

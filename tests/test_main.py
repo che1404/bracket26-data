@@ -1,4 +1,5 @@
 import json
+import pytest
 from feed.main import run
 
 
@@ -16,3 +17,21 @@ def test_run_writes_only_when_changed(tmp_path, monkeypatch):
     assert "generatedAt" in first
 
     assert run(out) is False                     # sin cambios → no reescribe
+
+
+def test_run_propagates_validation_failure(tmp_path, monkeypatch):
+    """El publish gate: si validate falla, run() propaga y NO escribe results.json."""
+    out = tmp_path / "results.json"
+    snapshot = [{"MatchNumber": 1, "RoundNumber": 1, "DateUtc": "2026-06-11 19:00:00Z",
+                 "Location": "X", "HomeTeam": "Mexico", "AwayTeam": "South Africa",
+                 "Group": "Group A", "HomeTeamScore": 2, "AwayTeamScore": 1, "Winner": "Mexico"}]
+    monkeypatch.setattr("feed.main.fetch_fixturedownload", lambda s: snapshot)
+    monkeypatch.setattr("feed.main.fetch_football_data", lambda s, t: [])
+
+    def raise_invalid(*args, **kwargs):
+        raise ValueError("invalid payload")
+    monkeypatch.setattr("feed.main.validate", raise_invalid)
+
+    with pytest.raises(ValueError):
+        run(out)
+    assert not out.exists()

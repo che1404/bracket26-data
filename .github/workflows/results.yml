@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+# Serializa runs solapados para evitar races de push sobre results.json.
+concurrency: results
 jobs:
   update:
     runs-on: ubuntu-latest

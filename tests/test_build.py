@@ -55,6 +55,24 @@ def test_draw_is_finished_with_null_winner():
     assert m1["homeScore"] == 1 and m1["awayScore"] == 1
 
 
+def test_ko_draw_without_winner_is_in_play():
+    snap = load_snapshot()
+    snap[1]["HomeTeamScore"], snap[1]["AwayTeamScore"] = 1, 1  # m73 KO: empate sin Winner (penaltis)
+    snap[1]["Winner"] = ""
+    out = build_results(snap, TEAM_IDS, VALID)
+    m73 = next(r for r in out["results"] if r["matchNumber"] == 73)
+    assert m73["status"] == "IN_PLAY" and m73["winner"] is None
+
+
+def test_group_draw_without_winner_stays_finished():
+    snap = load_snapshot()
+    snap[0]["Winner"] = ""                                    # m1 grupos: empate real
+    snap[0]["HomeTeamScore"], snap[0]["AwayTeamScore"] = 1, 1
+    out = build_results(snap, TEAM_IDS, VALID)
+    m1 = next(r for r in out["results"] if r["matchNumber"] == 1)
+    assert m1["status"] == "FINISHED" and m1["winner"] is None
+
+
 def test_partial_pairing_emits_null_side_scheduled():
     snap = load_snapshot()
     snap[1]["HomeTeam"] = "To be announced"   # m73: away Germany resuelto, home aún sin feeder
