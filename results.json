@@ -788,8 +788,8 @@
    "matchNumber": 88,
    "home": "AUS",
    "away": "EGY",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 3,
+   "awayScore": 5,
    "winner": "EGY",
    "status": "FINISHED"
   },
@@ -866,5 +866,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-04T04:49:35Z"
+ "generatedAt": "2026-07-04T07:39:56Z"
 }
