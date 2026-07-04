@@ -770,19 +770,19 @@
    "matchNumber": 86,
    "home": "ARG",
    "away": "CPV",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 3,
+   "awayScore": 2,
+   "winner": "ARG",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 87,
    "home": "COL",
    "away": "GHA",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "COL",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 88,
@@ -849,7 +849,7 @@
   },
   {
    "matchNumber": 95,
-   "home": null,
+   "home": "ARG",
    "away": "EGY",
    "homeScore": null,
    "awayScore": null,
@@ -859,12 +859,12 @@
   {
    "matchNumber": 96,
    "home": "SUI",
-   "away": null,
+   "away": "COL",
    "homeScore": null,
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-03T22:05:12Z"
+ "generatedAt": "2026-07-04T04:49:35Z"
 }
