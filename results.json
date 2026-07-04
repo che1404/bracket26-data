@@ -806,10 +806,10 @@
    "matchNumber": 90,
    "home": "CAN",
    "away": "MAR",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 0,
+   "awayScore": 3,
+   "winner": "MAR",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 91,
@@ -864,7 +864,16 @@
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 97,
+   "home": null,
+   "away": "MAR",
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-04T07:39:56Z"
+ "generatedAt": "2026-07-04T19:54:23Z"
 }
