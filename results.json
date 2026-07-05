@@ -797,10 +797,10 @@
    "matchNumber": 89,
    "home": "PAR",
    "away": "FRA",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "FRA",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 90,
@@ -867,7 +867,7 @@
   },
   {
    "matchNumber": 97,
-   "home": null,
+   "home": "FRA",
    "away": "MAR",
    "homeScore": null,
    "awayScore": null,
@@ -875,5 +875,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-04T19:54:23Z"
+ "generatedAt": "2026-07-05T02:53:13Z"
 }
