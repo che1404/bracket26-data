@@ -815,10 +815,10 @@
    "matchNumber": 91,
    "home": "BRA",
    "away": "NOR",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 1,
+   "awayScore": 2,
+   "winner": "NOR",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 92,
@@ -873,7 +873,16 @@
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 99,
+   "home": "NOR",
+   "away": null,
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-05T02:53:13Z"
+ "generatedAt": "2026-07-05T22:38:34Z"
 }
