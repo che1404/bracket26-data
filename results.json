@@ -833,10 +833,10 @@
    "matchNumber": 93,
    "home": "POR",
    "away": "ESP",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 0,
+   "awayScore": 1,
+   "winner": "ESP",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 94,
@@ -875,6 +875,15 @@
    "status": "SCHEDULED"
   },
   {
+   "matchNumber": 98,
+   "home": "ESP",
+   "away": null,
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
+  },
+  {
    "matchNumber": 99,
    "home": "NOR",
    "away": "ENG",
@@ -884,5 +893,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-06T05:50:18Z"
+ "generatedAt": "2026-07-06T22:20:09Z"
 }
