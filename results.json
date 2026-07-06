@@ -824,10 +824,10 @@
    "matchNumber": 92,
    "home": "MEX",
    "away": "ENG",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 2,
+   "awayScore": 3,
+   "winner": "ENG",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 93,
@@ -877,12 +877,12 @@
   {
    "matchNumber": 99,
    "home": "NOR",
-   "away": null,
+   "away": "ENG",
    "homeScore": null,
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-05T22:38:34Z"
+ "generatedAt": "2026-07-06T05:50:18Z"
 }
