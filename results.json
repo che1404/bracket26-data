@@ -851,10 +851,10 @@
    "matchNumber": 95,
    "home": "ARG",
    "away": "EGY",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 3,
+   "awayScore": 2,
+   "winner": "ARG",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 96,
@@ -891,7 +891,16 @@
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 100,
+   "home": "ARG",
+   "away": null,
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-07T05:30:49Z"
+ "generatedAt": "2026-07-07T20:25:34Z"
 }
