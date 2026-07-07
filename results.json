@@ -860,10 +860,10 @@
    "matchNumber": 96,
    "home": "SUI",
    "away": "COL",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 0,
+   "awayScore": 0,
+   "winner": "SUI",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 97,
@@ -895,12 +895,12 @@
   {
    "matchNumber": 100,
    "home": "ARG",
-   "away": null,
+   "away": "SUI",
    "homeScore": null,
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-07T20:25:34Z"
+ "generatedAt": "2026-07-07T23:54:35Z"
 }
