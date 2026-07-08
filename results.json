@@ -860,8 +860,8 @@
    "matchNumber": 96,
    "home": "SUI",
    "away": "COL",
-   "homeScore": 0,
-   "awayScore": 0,
+   "homeScore": 4,
+   "awayScore": 3,
    "winner": "SUI",
    "status": "FINISHED"
   },
@@ -902,5 +902,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-07T23:54:35Z"
+ "generatedAt": "2026-07-08T07:57:59Z"
 }
