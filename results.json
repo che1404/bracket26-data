@@ -878,10 +878,10 @@
    "matchNumber": 98,
    "home": "ESP",
    "away": "BEL",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 2,
+   "awayScore": 1,
+   "winner": "ESP",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 99,
@@ -904,12 +904,12 @@
   {
    "matchNumber": 101,
    "home": "FRA",
-   "away": null,
+   "away": "ESP",
    "homeScore": null,
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-09T23:06:09Z"
+ "generatedAt": "2026-07-10T21:41:23Z"
 }
