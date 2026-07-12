@@ -887,10 +887,10 @@
    "matchNumber": 99,
    "home": "NOR",
    "away": "ENG",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 1,
+   "awayScore": 2,
+   "winner": "ENG",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 100,
@@ -909,7 +909,16 @@
    "awayScore": null,
    "winner": null,
    "status": "SCHEDULED"
+  },
+  {
+   "matchNumber": 102,
+   "home": "ENG",
+   "away": null,
+   "homeScore": null,
+   "awayScore": null,
+   "winner": null,
+   "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-10T21:41:23Z"
+ "generatedAt": "2026-07-12T03:54:38Z"
 }
