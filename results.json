@@ -932,11 +932,11 @@
    "matchNumber": 104,
    "home": "ESP",
    "away": "ARG",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 1,
+   "awayScore": 0,
+   "winner": "ESP",
+   "status": "FINISHED"
   }
  ],
- "generatedAt": "2026-07-19T01:09:38Z"
+ "generatedAt": "2026-07-19T22:33:16Z"
 }
