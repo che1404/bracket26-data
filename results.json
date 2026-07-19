@@ -923,10 +923,10 @@
    "matchNumber": 103,
    "home": "FRA",
    "away": "ENG",
-   "homeScore": null,
-   "awayScore": null,
-   "winner": null,
-   "status": "SCHEDULED"
+   "homeScore": 4,
+   "awayScore": 6,
+   "winner": "ENG",
+   "status": "FINISHED"
   },
   {
    "matchNumber": 104,
@@ -938,5 +938,5 @@
    "status": "SCHEDULED"
   }
  ],
- "generatedAt": "2026-07-15T21:53:27Z"
+ "generatedAt": "2026-07-19T01:09:38Z"
 }
