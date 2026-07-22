@@ -662,8 +662,8 @@
    "matchNumber": 74,
    "home": "GER",
    "away": "PAR",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 4,
+   "awayScore": 5,
    "winner": "PAR",
    "status": "FINISHED"
   },
@@ -671,8 +671,8 @@
    "matchNumber": 75,
    "home": "NED",
    "away": "MAR",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 3,
+   "awayScore": 4,
    "winner": "MAR",
    "status": "FINISHED"
   },
@@ -788,8 +788,8 @@
    "matchNumber": 88,
    "home": "AUS",
    "away": "EGY",
-   "homeScore": 1,
-   "awayScore": 1,
+   "homeScore": 3,
+   "awayScore": 5,
    "winner": "EGY",
    "status": "FINISHED"
   },
@@ -860,8 +860,8 @@
    "matchNumber": 96,
    "home": "SUI",
    "away": "COL",
-   "homeScore": 0,
-   "awayScore": 0,
+   "homeScore": 4,
+   "awayScore": 3,
    "winner": "SUI",
    "status": "FINISHED"
   },
@@ -938,5 +938,5 @@
    "status": "FINISHED"
   }
  ],
- "generatedAt": "2026-07-22T15:00:02Z"
+ "generatedAt": "2026-07-22T16:25:42Z"
 }
